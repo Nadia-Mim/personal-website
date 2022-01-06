@@ -4,6 +4,7 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: 700;
 }
 .orange-color{
     color: orange;
@@ -38,4 +39,36 @@ h1{
     background-color: coral;
     padding: 2% 7%;
     border-radius: 5px;
+}
+#darknavy-color{
+    color: rgb(1, 1, 36);
+}
+
+.mission-details{
+    text-align: center;
+}
+.item-column{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mission-item{
+    text-align:left ;
+    width: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.mission-item img{
+    width: 40%;
+    position: left;
+}
+#item-1{
+    background-color: bisque;
+}
+#item-2{
+    background-color: rgb(195, 236, 236);
+}
+#item-3{
+    background-color:lavender;
 }
