@@ -2,9 +2,16 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+section{
+    padding-bottom: 100px;
+}
 h1{
     font-size: 50px;
     font-weight: 700;
+}
+h3{
+    font-size: 30px;
+    font-weight:900;
 }
 .orange-color{
     color: orange;
@@ -14,7 +21,7 @@ h1{
     justify-content: center;
 }
 .half-width{
-    width: 60%;
+    width: 50%;
     margin: auto;
     padding-left: 10%;
 }
@@ -38,7 +45,7 @@ h1{
     font-weight: 400;
     background-color: coral;
     padding: 2% 7%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 #darknavy-color{
     color: rgb(1, 1, 36);
@@ -61,7 +68,6 @@ h1{
 }
 .mission-item img{
     width: 40%;
-    position: left;
 }
 #item-1{
     background-color: bisque;
@@ -71,4 +77,48 @@ h1{
 }
 #item-3{
     background-color:lavender;
+}
+.coding{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25%;
+    margin-left: 3%;
+}
+.coding-width1{
+    width: 40%;
+    margin: auto;
+    padding-left: 10%;
+}
+.coding-width1 img{
+    padding-left: 10%;
+    width: 100%;
+}
+.coding-width2{
+    width: 60%;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.project{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
+    margin-right: 3%;
+}
+.project-width1{
+    width: 60%;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.project-width2{
+    width: 40%;
+    margin: auto;
+    padding-right: 10%;
+}
+.project-width2 img{
+    padding-right: 10%;
+    width: 100%;
 }
